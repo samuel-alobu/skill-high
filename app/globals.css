@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+  .nav__link {
+    @apply relative w-fit block text-xl font-semibold text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-full after:bg-yellow-400 after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left;
+  }
+}
