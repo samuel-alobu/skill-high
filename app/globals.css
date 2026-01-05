@@ -4,4 +4,7 @@
   .nav__link {
     @apply relative w-fit block text-xl font-semibold text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-full after:bg-yellow-400 after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left;
   }
+  .button__cls {
+    @apply md:px-12 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg
+  }
 }

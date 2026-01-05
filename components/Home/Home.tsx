@@ -1,9 +1,12 @@
 import React from 'react'
+import Hero from './Hero/Hero'
+import About from './About/About'
 
 export default function Home() {
   return (
-    <div>
-      Home
-    </div>
+   <div>
+    <Hero />
+    <About />
+   </div>
   )
 }
