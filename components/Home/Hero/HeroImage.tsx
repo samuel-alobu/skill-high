@@ -1,15 +1,19 @@
 "use client";
-import Image from 'next/image';
-import React from 'react'
-import Tilt from 'react-parallax-tilt';
-import heroImage from '@/public/images/hero.png';
+import Image from "next/image";
+import React from "react";
+import Tilt from "react-parallax-tilt";
+import heroImage from "@/public/images/hero.png";
 
 export default function HeroImage() {
   return (
     <Tilt>
-      <div className="hidden lg:block">
+      <div
+        data-aos="fade-left"
+        data-aos-delay="1050"
+        className="hidden lg:block"
+      >
         <Image src={heroImage} alt="Hero Image" width={800} height={600} />
       </div>
     </Tilt>
-  )
+  );
 }
